@@ -1,0 +1,87 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(227, 183, 118);
+}
+img {
+  width: 550px;
+  height: 300px;
+  margin: auto;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 10px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.container img {
+  max-width: 500px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.container .text h2 {
+  color: #e74c3c;
+}
+@media (max-width: 400px) {
+  .container img {
+    max-width: 200px;
+  }
+  .img1 {
+    display: none;
+  }
+  body {
+    background-image: url("./istockphoto-1081422898-612x612.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+  }
+  footer {
+    position: fixed;
+    bottom: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 500px;
+  }
+  main {
+    position: fixed;
+    top: 150px;
+    left: 300px;
+  }
+  header {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+  }
+}
+
+.container1 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.container1 img {
+  max-width: 500px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
